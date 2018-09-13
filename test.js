@@ -1,9 +1,9 @@
-function testHelper1() {
+const testHelper1 = function () {
   console.log('testHelper1 called');
   return 1;
 }
 
-function testHelper2(param) {
+const testHelper2 = function(param) {
   console.log('testHelper2 called');
 
   return 2 + param;
