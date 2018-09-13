@@ -8,3 +8,7 @@ function testHelper2(param) {
 
   return 2 + param;
 }
+
+
+// call function 1
+testHelper1();
